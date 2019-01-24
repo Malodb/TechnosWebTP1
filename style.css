@@ -1,0 +1,151 @@
+
+
+a:link, a:visited {
+  background-color: none;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: #;
+}
+header
+{
+  margin: 0px;
+}
+body
+{
+  font-family: arial;
+  margin : 0;
+  height: 100%;
+
+}
+
+button{
+  background-color: #4286f4;
+  font-family: arial;
+}
+
+nav{
+top: 0;
+position: fixed;
+padding-top: 5;
+width: 100%;
+background-color:  #000000;
+font-weight: bold;
+letter-spacing: 0.025em;
+z-index: 1000;
+}
+
+main{
+background-color: lightgrey;
+}
+footer{
+  background-color: #ededed;
+  left: 0;
+margin-bottom: 0;
+ width: 100%;
+}
+
+.image {
+    position: absolute;
+    top: 130%;
+    left: 1%;
+    width: 40px;
+    height: 40px;
+    margin: -60px 0 0 0px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.icon{
+  padding: 10px;
+  display: inline-block;
+}
+
+.icon:hover{
+background-color: #000000;
+}
+.emploi{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  display: block;
+}
+.emploi:hover{
+background-color: #000000;
+}
+.titre
+{
+  font-weight: bold;
+  color: white ;
+}
+.data{
+  color: white;
+}
+#CVtitle{
+  background-color: #c60101;
+  justify-content: center;
+  font-family: Arial;
+  color: #FFFFFF;
+  align-content: center;
+padding-left: 40%;
+padding-top:50px;
+padding-bottom: 20px;
+}
+
+#Formation{
+  height : auto;
+  width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+  background-image:url("Images/ECE.jpg");
+  background-size: cover;
+}
+#Projets{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height : auto;
+  width: 100%;
+  background-image:url("Images/project.jpg");
+  background-size: cover;
+
+}
+#Travail{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height : auto;
+  width: 100%;
+  margin: 0;
+  background-image:url("Images/travail.jpg");
+  background-size: cover;
+}
+#Software
+{
+  background-color: #afdaff;
+  height: auto;
+  width: 300px;
+  box-shadow: 1px 1px 5px lightgrey;
+  z-index: 10;
+}
+
+#Hobbies
+{
+  background-color: #afdaff;
+  height: auto;
+  width: 300px;
+  box-shadow: 1px 1px 5px lightgrey;
+  z-index: 10;
+}
+
+#Projets
+{
+  max-height: inherit;
+}
