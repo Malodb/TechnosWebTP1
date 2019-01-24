@@ -68,6 +68,7 @@ margin-bottom: 0;
 .icon{
   padding: 10px;
   display: inline-block;
+  height: auto;
 }
 
 .icon:hover{
@@ -87,9 +88,11 @@ background-color: #000000;
   font-weight: bold;
   color: white ;
 }
+
 .data{
   color: white;
 }
+
 #CVtitle{
   background-color: #c60101;
   justify-content: center;
@@ -127,25 +130,46 @@ padding-bottom: 10px;
   background-image:url("Images/travail.jpg");
   background-size: cover;
 }
+
+#contact{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url("Images/moi.jpg");
+  background-size: cover;
+  margin: 0;
+  align:center;
+  height: auto;
+  width: 100%;
+}
+
 #Software
 {
-  background-color: #afdaff;
+  background-image: url("Images/software.jpg");
+  background-size: cover;
+  margin: 0;
+  align:center;
   height: auto;
-  width: 300px;
-  box-shadow: 1px 1px 5px lightgrey;
-  z-index: 10;
+  width: 100%;
+}
+
+#talent{
+  padding-top: 10px;
+  padding-bottom: 50px;
+  height: auto;
+  margin: 0;
+  width: 100%;
+  background-image: url("Images/talent.jpg");
+  background-size: cover;
+
 }
 
 #Hobbies
 {
-  background-color: #afdaff;
-  height: auto;
-  width: 300px;
-  box-shadow: 1px 1px 5px lightgrey;
-  z-index: 10;
-}
-
-#Projets
-{
-  max-height: inherit;
+align:  center;
+padding-top: 10px;
+padding-bottom: 50px;
+width: 100%;
+height: auto;
+background-image:  url("Images/Hobbies.jpg");
+background-size: cover;
 }
